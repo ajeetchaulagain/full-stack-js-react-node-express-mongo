@@ -1,0 +1,19 @@
+{
+  "name": "fullstackjs",
+  "version": "1.0.0",
+  "description": "Demonstrates fullstack javascript development using react.js, node.js, mongodb and express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajeetchaulagain/full-stack-js-react-node-express-mongo.git"
+  },
+  "author": "Ajeet Chaulagain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajeetchaulagain/full-stack-js-react-node-express-mongo/issues"
+  },
+  "homepage": "https://github.com/ajeetchaulagain/full-stack-js-react-node-express-mongo#readme"
+}
