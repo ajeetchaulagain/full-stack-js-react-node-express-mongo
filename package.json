@@ -1,8 +1,29 @@
 {
   "name": "fullstackjs",
   "version": "1.0.0",
-  "description": "Demonstrates fullstack javascript development using react.js, node.js, mongodb and express.js",
+  "description": "Full Stack Javascript development",
   "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.3.4",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@babel/node": "7.x",
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.6.0",
+    "eslint-plugin-react": "^7.16.0",
+    "nodemon": "^1.19.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +32,7 @@
     "url": "git+https://github.com/ajeetchaulagain/full-stack-js-react-node-express-mongo.git"
   },
   "author": "Ajeet Chaulagain",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/ajeetchaulagain/full-stack-js-react-node-express-mongo/issues"
   },
