@@ -25,7 +25,8 @@
     "webpack-cli": "^3.3.10"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev":"webpack -wd"
   },
   "repository": {
     "type": "git",
