@@ -5,14 +5,18 @@ import apiRouter from './api'
 
 const server = express();
 
+server.set('view engine','ejs');
+
+
 // second argument is the event handler
 server.get("/", (req,res)=>{
-    res.send("hello express");
+    res.render('index',{
+        content: "Hello content from <strong>express<strong>"
+    });
 });
 
 server.use('/api',apiRouter);
 server.use(express.static('public'));
-
 
 server.listen(config.port,()=>{
     console.info("Express listening on port:"+config.port);
