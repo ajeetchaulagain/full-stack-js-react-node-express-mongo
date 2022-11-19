@@ -24,7 +24,7 @@
     "eslint-plugin-react": "^7.16.0",
     "nodemon": "^1.19.4",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.12"
   },
   "scripts": {
     "start": "nodemon --exec babel-node server.js --ignore public/",
